@@ -1,4 +1,17 @@
+@charset "UTF-8";
+
+main {
+    margin-top: 90px;
+}
+
+section {
+    margin: 20px;
+    
+}
+
 .divider-line {
     height: 10px;
     
 }
+
+
