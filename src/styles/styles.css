@@ -19,3 +19,341 @@ section {
     margin: 10px 0;
 }
 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+nav {
+    background-color: #376ca8;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+  
+  .menu-icon {
+    display: none; /* Esconder inicialmente */
+    cursor: pointer;
+  }
+  
+  .menu-icon span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px;
+  }
+  
+  .nav-list a:hover {
+  
+      color: #110c0c;
+  }
+  
+  
+  
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Estilos para telas menores (responsividade) */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-list {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: rgb(68, 121, 170);
+      flex-direction: column;
+      text-align: center;
+      transition: all 0.3s ease;
+      height: 0;
+      overflow: hidden;
+    }
+  
+    .nav-list.active {
+      height: auto;
+    }
+  }
+  
+ 
+  i#burguer {
+  
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  
+  }
+  
+  i#burguer:hover {
+  
+    
+    color: #110c0c;
+  
+  
+  }
+  
+  
+  
+  /* Estilos para telas médias (tablets) */
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 20px;
+    }
+    .container {
+      width: 80%; /* Ajuste a largura conforme necessário */
+    }
+  }
+  
+  /* Estilos para telas pequenas (smartphones) */
+  @media screen and (max-width: 380px) {
+    body {
+      font-size: 10px;
+    }
+  
+    
+    .container {
+      width: 90%;
+    }
+    nav {
+      font-size: 5px;
+      width: 80%;
+      flex-direction: column; /* Transforma o menu horizontal em vertical */
+    }
+  }
+  
+  body {
+    
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgba(177, 209, 236, 0.418);
+    background-image: url("constru.png");
+    background-position: center bottom;
+    background-size:backdrop;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+  }
+  
+    h2  {
+      
+     
+      background-image: linear-gradient(to right, rgb(28, 42, 236), rgb(117, 116, 175));
+      box-shadow: 5px 3px 7px 1px rgba(243, 238, 238, 0.466);
+           
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      margin-right: 30px;
+      margin: 10px;
+      text-align: justify;
+      border-radius: 20px;
+      box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);
+      
+        
+  }
+    h3 {
+      
+     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);  
+  }
+  
+  .city {
+    background-color: rgb(85, 127, 204);
+    color: white;
+    padding: 2px; 
+    border-radius: 20px; }
+  
+  
+    h4 {
+          
+    font-size: 10px;
+    text-align: center;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);
+    
+   
+  }
+  
+  
+  p {
+      line-height: 1.5em;    
+      margin-inline-start: 10px;
+      text-indent: 30px;
+      text-align: center;
+   
+    }
+      
+  
+  
+  .container {
+      display: flex;
+      justify-content: justify;
+      align-items: justify;
+     
+      
+  }
+  
+  .box {
+        position: absolute;
+        border: 2px solid black;
+        padding: 10px;
+      }
+    
+  
+  header {
+      background-image: linear-gradient(to bottom, rgba(31, 194, 243, 0.562), rgba(12, 36, 172, 0.548));
+      height: 100px;
+      color: #fff;
+      padding: 10px;
+      margin-block: center;
+      text-align: center;
+      box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+      border-radius: 10px;
+      
+      margin: auto;
+      padding-bottom: 50px;
+      
+  
+      
+  }
+  
+  main {
+      min-width: auto;
+      max-width: auto;
+      background-color: white;
+      margin: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-radius: 20px;
+      
+        
+       
+    }
+    
+   
+    mark {
+      background-color: yellow;
+      color: black;
+    }
+  
+    form {
+      display: inline-block;
+      flex-direction: column; /* Empilha elementos verticalmente */
+      margin: 10px;
+      padding: 5px;
+      border-radius: 10px;
+      background-color: rgba(117, 184, 250, 0.329);
+      border: 1px solid black;
+      
+     
+      
+    }
+    
+    input, textarea, button {
+      margin-bottom: 10px; /* Adiciona espaço entre os elementos */
+      font-size: 1em;
+      background-color: rgb(187, 208, 231);
+      height: 30px;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      
+    }
+  
+    button:hover {
+  
+      background-color: #c4e5b7;
+    }
+  
+    input:hover {
+  
+      background-color: #c4e5b7;
+    }
+    
+  
+    table {
+      
+      border-radius: 10px;
+  }
+    th, td {
+    
+    border-collapse: separate;
+    border-radius: 10px;
+    padding: 0px;
+  }
+    th.linha, td.linha {
+      
+      background-image: linear-gradient(to bottom, rgba(243, 144, 31, 0.658), rgba(228, 155, 155, 0.719));
+  }
+      
+  
+  label, textarea {
+    display: inline-block; /* Torna os elementos inline-block para permitir alinhamento lado a lado */
+    vertical-align: top; /* Alinha o conteúdo verticalmente no topo */
+  }
+  
+  label {
+    
+    vertical-align: super;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+.menu-icon {
+    display: block;
+    cursor: pointer;
+}
+
+.menu-icon.active + .nav-list {
+    height: auto;
+}
+
+.menu-icon.active span {
+    background-color: #000;
+}
+
+footer .card {
+    margin: auto;
+  }
+  
+  /* ... e outros estilos */
