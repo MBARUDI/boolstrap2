@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@import url('global.css')
+
+/*
+.divider-line {
+  height: 3px;
+  background-color: var();
+
+}
+
+*/
+
+
 main {
     margin-top: 20px;
 }
